@@ -1,0 +1,492 @@
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* navbar section */
+
+nav {
+    width: 1520px;
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 8px;
+}
+
+a:link, a:visited {
+    color: #ababab;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active {
+    color: #00b39b;
+}
+
+a:hover {
+    color: #00b39b;
+}
+
+
+.sub-menu {
+    list-style-type: none;
+}
+
+.dropdown-item:hover {
+    color:#00b39b;
+}
+
+#dropdown-items {
+    display: none;
+}
+
+#dropdown-menu:hover #dropdown-items {
+    display: block;
+}
+
+/* the first section */
+
+.section1 {
+    width: 1232px;
+    height: 324px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: center;
+    margin-top: 8rem;
+}
+
+.section1 img {
+    width: 40px;
+    height: 40px;
+}
+
+#hdr1 {
+    color: #00b39b; 
+    font-size: 2.125rem;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+}
+
+.two-para {
+    width: 500px;
+    height: 147px;
+    padding: 30px 50px;
+    color: #747474;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#p1 {
+    margin: 0 0 10px;
+}
+
+#p2 {
+    padding-right: 30px;
+}
+
+/* section of cards */
+
+.section2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 1.375em 1.25em 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75rem auto 2.5rem;
+    color: #fff;
+    min-width: 850px;
+    max-width: 850px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.section2 img {
+    width: 25px;
+    height: auto;
+}
+
+
+.card1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-around;
+    height: 345px;
+}
+
+.card2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-around;
+    height: 345px;
+}
+
+.card3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-around;
+    height: 345px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+select {
+    border: none;
+    background-color: inherit;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 30px;
+    font-style: bold;
+    font-weight: 400;
+    line-height: inherit;
+    text-transform: none;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+/* section of partners */
+
+.section3 { 
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+#partners-title {
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.partners-links {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: 300px;
+    
+}
+
+.partner-logo {
+    width: 7.5rem;
+    object-fit: contain;
+    border: 0;
+    overflow: clip;
+}
+
+/* section of achievements */
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 10px;
+}
+
+.section4header {
+    width: 512px;
+    height: 630px;
+    padding-top: 60px;
+}
+
+.section4 h2 {
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.section4 p {
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #747474;
+    padding-bottom: 50px;
+    margin: 0 0 10px;
+}
+
+.section4fourparts {
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+
+.section4fourparts div {
+    height: 500px;
+    width: 250px;
+}
+
+.first2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#leader, #patients, #appointments, #doctors {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 220px;
+    border-radius: 2px;
+}
+
+.section4header img {
+    width: 451px;
+    height: 330px;
+    vertical-align: middle;
+    border: 0;
+}
+
+#leader img {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+#patients img {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+#appointments img {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+#doctors img {
+    width: 25px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.section4header h2 {
+    font-size: 1.84em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+.section4fourparts h3 {
+    font-size: 1.84em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4fourparts p {
+    font-size: 0.8125em;
+    font-weight: 400;
+    font-family: inherit;
+    color: #747474;
+    align-items: center;
+    justify-content: center;
+}
+
+.second2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#appointments {
+    margin-bottom: 20px;
+}
+
+/* This is section five: countries */
+
+.section5-hdr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+
+.section5-hdr h1 {
+    font-size: 2.14em;
+    color: #00b39b;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section5-hdr p {
+    margin: 1.6em 0;
+    line-height: 1.714;
+    text-align: center;
+    font-weight: 400;
+    color: #747474;
+}
+
+.country-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+}
+
+.card-container {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.card {
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 16px;
+}
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content .btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+/* This is section six: invitation */
+
+.section6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.section6 h1{
+    font-size: 2.142em;
+    color: #333;
+    margin-bottom: 0.75em;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    line-height: 1em;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+}
+
+/* This is the footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; 
+}
